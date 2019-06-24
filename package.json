@@ -5,7 +5,6 @@
     "author": "Thomas Woodhouse",
     "bugs": "https://github.com/londoner1234/LWCApp/issues",
     "dependencies": {
-        "@salesforce-ux/design-system": "^2.9.3",
         "lwc-services": "^1.2.2"
     },
     "devDependencies": {

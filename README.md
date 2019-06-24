@@ -10,8 +10,7 @@ The source files are located in the [`src`](./src) folder. All web components ar
 
 Find more information on the main repo on [GitHub](https://github.com/muenzpraeger/lwc-create-app).
 
-
-## Resources 
+## Resources
 
 [Lightning Design System](https://lightningdesignsystem.com/downloads/)
 
