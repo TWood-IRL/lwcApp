@@ -7,7 +7,7 @@
 // https://github.com/trailheadapps/lwc-recipes-oss
 
 import { createElement } from 'lwc';
-import MyApp from 'my/app';
+import Footer from 'layout/footer';
 
 describe('my-app', () => {
     afterEach(() => {
@@ -19,7 +19,7 @@ describe('my-app', () => {
 
     it('contains a link to the LWC documentation with target set to _blank', () => {
         const element = createElement('my-app', {
-            is: MyApp
+            is: Footer
         });
         document.body.appendChild(element);
 
@@ -31,7 +31,7 @@ describe('my-app', () => {
 
     it('contains a link to the LWC documentation with https://', () => {
         const element = createElement('my-app', {
-            is: MyApp
+            is: Footer
         });
         document.body.appendChild(element);
 
@@ -43,7 +43,7 @@ describe('my-app', () => {
 
     it('contains one active custom element my-greeting', () => {
         const element = createElement('my-app', {
-            is: MyApp
+            is: Footer
         });
         document.body.appendChild(element);
 
