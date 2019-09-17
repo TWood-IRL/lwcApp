@@ -1,31 +1,57 @@
 <template>
+    <div class="testing-css">
+        <!--Resources-->
+        <layout-header></layout-header>
 
-    <!--Resources-->
-    <layout-header></layout-header>
-
-
-    <!-- LWC sample component <my-greeting> -->
-    <div class="center greeting">
-        <!-- <my-greeting speed="slow"></my-greeting> -->
-        <my-greeting speed="fast"></my-greeting>
-        <!-- <my-greeting speed="fast"></my-greeting> -->
-    </div>
-
-    <div class="center">
-        <img src="/resources/lwc.png" />
-    </div>
-    <!-- Page code -->
-    <div class="center">
-        <div class="slds-card">
-            <p class="info">
-                Edit <strong class="code">src/modules/my/app/app.html</strong>
-                <br />and save for live reload.
-            </p>
+        <!-- LWC sample component <my-greeting> -->
+        <div class="center greeting">
+            <!-- <my-greeting speed="slow"></my-greeting> -->
+            <my-greeting speed="fast"></my-greeting>
+            <!-- <my-greeting speed="fast"></my-greeting> -->
         </div>
-        <div>
-            <a href="https://lwc.dev" class="link" target="_blank">Learn LWC</a>
-        </div>
-    </div>
-    <layout-footer></layout-footer>
 
+        <div class="center">
+            <img src="/resources/lwc.png" />
+        </div>
+        <!-- Page code -->
+        <div class="center">
+            <div class="slds-card">
+                <div
+                    id="carouselExampleSlidesOnly"
+                    class="carousel slide"
+                    data-ride="carousel"
+                >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img
+                                class="d-block w-100"
+                                src="http://localhost:3001/resources/lwc.png"
+                                alt="First slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                class="d-block w-100"
+                                src="http://localhost:3001/resources/lwc.png"
+                                alt="Second slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                class="d-block w-100"
+                                src="http://localhost:3001/resources/lwc.png"
+                                alt="Third slide"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="https://lwc.dev" class="link" target="_blank"
+                    >Learn LWC</a
+                >
+            </div>
+        </div>
+        <layout-footer></layout-footer>
+    </div>
 </template>

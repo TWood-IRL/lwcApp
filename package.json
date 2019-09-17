@@ -5,13 +5,17 @@
     "author": "Thomas Woodhouse",
     "bugs": "https://github.com/londoner1234/LWCApp/issues",
     "dependencies": {
-        "@salesforce-ux/design-system": "^2.9.3",
-        "lwc-services": "^1.2.2"
+        "@lwc/synthetic-shadow": "^1.0.0",
+        "@salesforce-ux/design-system": "^2.10.0",
+        "bootstrap": "^4.3.1",
+        "jquery": "^3.4.1",
+        "lwc-services": "^1.2.2",
+        "popper": "^1.0.1"
     },
     "devDependencies": {
-        "husky": "^2.5.0",
+        "husky": "^2.7.0",
         "lint-staged": "^8.2.1",
-        "webpack-cli": "^3.3.5"
+        "webpack-cli": "^3.3.9"
     },
     "engines": {
         "node": ">=10.0.0"
